@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "contacts": "Contacts",
+    "terms": "Terms",
+    "privacy": "Privacy Policy"
+  },
+  "hero": {
+    "title": "Virtual Phone Numbers",
+    "subtitle": "Receive SMS online for any service. Instant activation, low prices, 21 countries.",
+    "cta": "Get a Number Now",
+    "badge": "Fast & Reliable"
+  },
+  "services": {
+    "title": "Select a Service",
+    "subtitle": "We support 17+ popular platforms for SMS verification"
+  },
+  "countries": {
+    "title": "Select a Country",
+    "subtitle": "Phone numbers from 21 countries worldwide"
+  },
+  "cta": {
+    "getNumber": "Get Number",
+    "learnMore": "Learn More",
+    "goTo": "Go to Service"
+  },
+  "footer": {
+    "description": "Fast, reliable, and affordable virtual phone numbers for SMS verification worldwide.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "copyright": "All rights reserved."
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Your trusted partner for virtual phone numbers",
+    "description": "We provide fast and reliable virtual phone numbers for SMS verification across 21 countries. Our platform supports 17+ popular services including Telegram, WhatsApp, Google, and more.",
+    "mission": "Our Mission",
+    "missionText": "To make SMS verification accessible, fast, and affordable for everyone, everywhere.",
+    "stats": {
+      "countries": "21 Countries",
+      "services": "17+ Services",
+      "uptime": "99.9% Uptime",
+      "support": "24/7 Support"
+    }
+  },
+  "contacts": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help",
+    "name": "Your Name",
+    "email": "Email Address",
+    "message": "Your Message",
+    "send": "Send Message",
+    "success": "Your message has been sent! We'll get back to you soon.",
+    "telegram": "Telegram Support",
+    "email_label": "Email"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Please read these terms carefully before using our service",
+    "lastUpdated": "Last updated: January 1, 2025"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How we collect, use, and protect your data",
+    "lastUpdated": "Last updated: January 1, 2025"
+  },
+  "service_page": {
+    "receive_sms": "Receive SMS for",
+    "available_countries": "Available Countries",
+    "how_it_works": "How It Works",
+    "step1": "Choose your country",
+    "step2": "Get a virtual number instantly",
+    "step3": "Receive your SMS code",
+    "get_number": "Get Number →",
+    "why_us": "Why choose us?",
+    "instant": "Instant activation",
+    "cheap": "Affordable prices",
+    "reliable": "High reliability",
+    "anonymous": "No registration required"
+  },
+  "country_page": {
+    "numbers_from": "Phone Numbers from",
+    "available_services": "Available Services",
+    "get_number": "Get Number →",
+    "why_this_country": "Why use numbers from this country?",
+    "local_numbers": "Local phone numbers",
+    "accepted_globally": "Accepted by all major platforms",
+    "instant_delivery": "Instant SMS delivery"
+  }
+}
