@@ -28,7 +28,7 @@ export default async function PrivacyPage({
         <div className="container">
           <h1>{dict.privacy.title}</h1>
           <p>{dict.privacy.subtitle}</p>
-          <p style={{ marginTop: '0.5rem', fontSize: '0.8rem', color: 'rgba(255,255,255,0.3)' }}>
+          <p style={{ marginTop: '0.5rem', fontSize: '0.8rem', color: 'var(--text-faint)' }}>
             {dict.privacy.lastUpdated}
           </p>
         </div>

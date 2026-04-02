@@ -17,8 +17,6 @@ interface HeaderProps {
 }
 
 export default function Header({ lang, dict }: HeaderProps) {
-  const otherLang = lang === 'ru' ? 'en' : 'ru'
-
   return (
     <header className="header">
       <div className="container">
@@ -28,7 +26,7 @@ export default function Header({ lang, dict }: HeaderProps) {
             <span className="logo-icon">
               <Smartphone size={18} color="#fff" />
             </span>
-            Virtual<span style={{ color: 'var(--blue-light)' }}>SMS</span>
+            Virtual<span style={{ color: 'var(--blue)' }}>SMS</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -69,7 +67,7 @@ export default function Header({ lang, dict }: HeaderProps) {
             </div>
 
             {/* CTA */}
-            <Link href="/go" className="btn-primary">
+            <Link href={`/${lang}/service/telegram`} className="btn-primary">
               {dict.cta.getNumber}
             </Link>
           </div>

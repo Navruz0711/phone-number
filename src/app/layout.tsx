@@ -4,6 +4,10 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'VirtualSMS',
   description: 'Virtual phone numbers for SMS verification',
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   robots: {
     index: false,
     follow: false,

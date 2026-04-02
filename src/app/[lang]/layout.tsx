@@ -48,6 +48,11 @@ export default async function LangLayout({
 
   return (
     <html lang={lang} className={inter.className}>
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
+        <meta name="theme-color" content="#007bff" />
+      </head>
       <body style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Header lang={lang as Locale} dict={dict} />
         <main style={{ flex: 1 }}>{children}</main>

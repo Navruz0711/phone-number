@@ -34,7 +34,7 @@ export default function Footer({ lang, dict }: FooterProps) {
               <span className="logo-icon">
                 <Smartphone size={16} color="#fff" />
               </span>
-              Virtual<span style={{ color: 'var(--blue-light)' }}>SMS</span>
+              Virtual<span style={{ color: 'var(--blue)' }}>SMS</span>
             </Link>
             <p>{dict.footer.description}</p>
           </div>

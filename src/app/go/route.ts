@@ -1,7 +1,7 @@
-import { redirect } from 'next/navigation'
+import { NextResponse } from 'next/server'
 
 // All CTA buttons on the site link to /go
-// This route redirects to the external service placeholder
+// This route performs a permanent redirect to the external service
 export async function GET() {
-  redirect('https://t.me/virtualsms_bot')
+  return NextResponse.redirect('https://365sms.vip/?ref=1', { status: 301 })
 }

@@ -48,7 +48,7 @@ export default async function HomePage({
           <p className="hero-subtitle">{dict.hero.subtitle}</p>
 
           <div className="hero-actions">
-            <Link href="/go" className="btn-primary">
+            <Link href={`/${lang}/service/telegram`} className="btn-primary">
               {dict.hero.cta}
             </Link>
             <Link href={`/${lang}/about`} className="btn-outline">
@@ -142,7 +142,7 @@ export default async function HomePage({
       </section>
 
       {/* COUNTRIES */}
-      <section className="section" style={{ background: 'rgba(255,255,255,0.01)' }}>
+      <section className="section section-alt">
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">{dict.countries.title}</h2>
@@ -177,7 +177,7 @@ export default async function HomePage({
                 ? 'Получите виртуальный номер мгновенно и начните принимать SMS прямо сейчас.'
                 : 'Get a virtual number instantly and start receiving SMS right now.'}
             </p>
-            <Link href="/go" className="btn-primary" style={{ fontSize: '1rem', padding: '0.75rem 2rem' }}>
+            <Link href={`/${lang}/service/telegram`} className="btn-primary" style={{ fontSize: '1rem', padding: '0.75rem 2rem' }}>
               {dict.hero.cta}
             </Link>
           </div>

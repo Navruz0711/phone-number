@@ -284,7 +284,7 @@ export default async function ServicePage({
             </div>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: '2rem', alignItems: 'start' }}>
+          <div className="page-grid">
             {/* Main content */}
             <div>
               {/* How it works */}
@@ -338,7 +338,7 @@ export default async function ServicePage({
             </div>
 
             {/* Sidebar */}
-            <div style={{ position: 'sticky', top: '80px' }}>
+            <div className="service-sidebar" style={{ position: 'sticky', top: '80px' }}>
               <div className="cta-banner" style={{ textAlign: 'left', padding: '1.5rem' }}>
                 <div
                   style={{
@@ -366,7 +366,7 @@ export default async function ServicePage({
                 </Link>
 
                 <div style={{ marginTop: '1.5rem' }}>
-                  <p style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.4)', marginBottom: '0.75rem', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase' }}>
+                  <p style={{ fontSize: '0.75rem', color: 'var(--text-faint)', marginBottom: '0.75rem', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase' }}>
                     {dict.service_page.why_us}
                   </p>
                   <ul className="check-list">

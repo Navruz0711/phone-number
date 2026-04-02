@@ -28,7 +28,7 @@ export default async function TermsPage({
         <div className="container">
           <h1>{dict.terms.title}</h1>
           <p>{dict.terms.subtitle}</p>
-          <p style={{ marginTop: '0.5rem', fontSize: '0.8rem', color: 'rgba(255,255,255,0.3)' }}>
+          <p style={{ marginTop: '0.5rem', fontSize: '0.8rem', color: 'var(--text-faint)' }}>
             {dict.terms.lastUpdated}
           </p>
         </div>

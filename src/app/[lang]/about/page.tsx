@@ -37,7 +37,7 @@ export default async function AboutPage({
       <div className="page-content">
         <div className="container">
           <div style={{ maxWidth: 760, margin: '0 auto' }}>
-            <p style={{ color: 'rgba(255,255,255,0.65)', lineHeight: 1.8, fontSize: '1.05rem', marginBottom: '1.5rem' }}>
+            <p style={{ color: 'var(--text-muted)', lineHeight: 1.8, fontSize: '1.05rem', marginBottom: '1.5rem' }}>
               {dict.about.description}
             </p>
 

@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { useState } from 'react'
 import { Send, MessageCircle, Mail } from 'lucide-react'
 
@@ -28,7 +29,7 @@ export default function ContactsClient({ dict, lang }: ContactsClientProps) {
   }
 
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem', alignItems: 'start' }}>
+    <div className="contact-grid">
       {/* Form */}
       <div>
         {submitted ? (
@@ -38,7 +39,7 @@ export default function ContactsClient({ dict, lang }: ContactsClientProps) {
             borderRadius: 12,
             padding: '2rem',
             textAlign: 'center',
-            color: 'rgba(255,255,255,0.8)',
+            color: 'var(--text)',
           }}>
             ✅ {dict.contacts.success}
           </div>
@@ -71,7 +72,9 @@ export default function ContactsClient({ dict, lang }: ContactsClientProps) {
           <div>
             <div className="feature-title">{dict.contacts.telegram}</div>
             <div className="feature-desc">
-              <a href="/go" style={{ color: 'var(--blue-light)', textDecoration: 'none' }}>@virtualsms_support</a>
+              <Link href="/go" style={{ color: 'var(--blue)', textDecoration: 'none' }}>
+                @virtualsms_support
+              </Link>
             </div>
           </div>
         </div>
@@ -80,7 +83,7 @@ export default function ContactsClient({ dict, lang }: ContactsClientProps) {
           <div>
             <div className="feature-title">{dict.contacts.email_label}</div>
             <div className="feature-desc">
-              <a href="mailto:support@virtualsms.io" style={{ color: 'var(--blue-light)', textDecoration: 'none' }}>support@virtualsms.io</a>
+              <a href="mailto:support@virtualsms.io" style={{ color: 'var(--blue)', textDecoration: 'none' }}>support@virtualsms.io</a>
             </div>
           </div>
         </div>

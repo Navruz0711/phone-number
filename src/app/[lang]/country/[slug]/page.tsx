@@ -158,7 +158,7 @@ export default async function CountryPage({
           </div>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: '2rem', alignItems: 'start' }}>
+        <div className="page-grid">
           {/* Main */}
           <div>
             {/* SEO block */}
@@ -202,11 +202,11 @@ export default async function CountryPage({
           </div>
 
           {/* Sidebar */}
-          <div style={{ position: 'sticky', top: '80px' }}>
+          <div className="country-sidebar" style={{ position: 'sticky', top: '80px' }}>
             <div className="cta-banner" style={{ textAlign: 'left', padding: '1.5rem' }}>
               <span style={{ fontSize: '3rem', display: 'block', marginBottom: '0.75rem' }}>{country.flag}</span>
               <h2 style={{ fontSize: '1.1rem', marginBottom: '0.25rem' }}>{country.name}</h2>
-              <p style={{ fontSize: '0.875rem', color: 'rgba(255,255,255,0.5)', marginBottom: '1.25rem' }}>
+              <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginBottom: '1.25rem' }}>
                 {country.code}
               </p>
               <Link href="/go" className="btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
